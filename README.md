@@ -1,6 +1,6 @@
 # Computer-Vision
 
-Welcome to the Computer-Vision repository!
+Welcome to my Computer-Vision repository!
 
 This repository has all the projects I did as part of the Convolutional Neural Networks course(part of Deep Learning Specialization) on Coursera.
 
