@@ -8,6 +8,10 @@ As a result, I am now able to:
 
 -build CNNs, including recent variations such as the residual network.
 
+-build a face recognition system.
+
+-implement YOLO
+
 -applying CNNs to visual detection and recognition tasks.
 
 -generating art using neural style transfer.
