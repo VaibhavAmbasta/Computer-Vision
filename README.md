@@ -1,4 +1,4 @@
-# Computer-Vision-yolo, face recognition, neural style transfer
+# Computer-Vision
 
 Welcome to my Computer-Vision repository!
 
