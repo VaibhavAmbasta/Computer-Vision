@@ -63,7 +63,7 @@ def identity_block(X, f, filters, stage, block):
     
   
     
-    # Second component of main path (≈3 lines)
+    # Second component of main path 
     X = Conv2D(filters = F2, kernel_size = (f,f), strides = (1,1), padding = 'same', name = conv_name_base + '2b', kernel_initializer = glorot_uniform(seed=0))(X)
     X = BatchNormalization(axis = 3, name = bn_name_base + '2b')(X)
     X = Activation('relu')(X)
@@ -76,6 +76,6 @@ def identity_block(X, f, filters, stage, block):
     X = Add()([X,X_shortcut])
     X = Activation('relu')(X)
     
-    ### END CODE HERE ###
+  
     
     return X
